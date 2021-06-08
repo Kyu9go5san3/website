@@ -1,0 +1,10 @@
+body{
+    font-family: 'Noto Sans SC', 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+h1{
+    display: inline-block;
+    margin-left: auto;
+}
+h1 a{
+    text-decoration: none;
+}

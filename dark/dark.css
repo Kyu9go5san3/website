@@ -1,0 +1,54 @@
+:root{
+    /*Dark*/
+    --background-primary-dark: #36393f;
+    --background-secondary-dark: #2f3136;
+    --background-secondary-alt-dark: #292b2f;
+    --background-tertiary-dark: #202225;
+    --background-accent-dark: #4f545c;
+    --background-floating-dark: #18191c;
+    /*Light*/
+    --background-primary-light: #fff;
+    --background-secondary-light: #f2f3f5;
+    --background-secondary-alt-light: #ebedef;
+    --background-tertiary-light: #e3e5e8;
+    --background-accent-light: #747f8d;
+    --background-floating-light: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.primary, .primary a{
+    transition: 1s;
+}
+.primary.dark{
+    background: var(--background-primary-dark);
+    color: white;
+}
+.primary.light{
+    background: var(--background-primary-light);
+    color: black;
+}
+.primary.dark a{
+    color: white;
+}
+.primary.light a{
+    color: black;
+}
+.secondary{
+    transition: 1s;
+}
+.secondary.dark{
+    background: var(--background-secondary-dark);
+    color: white;
+}
+.secondary.light{
+    background: var(--background-secondary-light);
+    color: black;
+}
+.secondary.dark a{
+    color: white;
+}
+.secondary.light a{
+    color: black;
+}
